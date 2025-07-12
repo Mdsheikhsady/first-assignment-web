@@ -1,101 +1,270 @@
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
+    font-family: Inter, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
-/*header css*/
-.header{
-    background-image: url('../images/Hero-bg.png');
+
+.header {
+    background-image: url("../images/Hero-bg.png");
     padding: 30px;
 }
-/*nav css*/
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-/*shared css*/
-.btn-primary{
-    background-color: #4E47FF;
+.btn-primary {
+    background-color: rgb(78, 71, 255);
     padding: 10px 20px;
     text-decoration: none;
     border: none;
     border-radius: 8px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    cursor: pointer;
 }
-.container{
+
+.btn-primary:hover{
+    background-color:  rgba(71, 255, 194, 0.705);
+    color: blue;
+    transition: 0.4s ease all;
+    
+
+}
+.container {
     max-width: 1140px;
     margin: auto;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #F5F8FF;
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 248, 255);
 }
 
-/*banner css*/
-.banner{
+.banner {
     padding: 110px 100px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 820px;
     margin: auto;
     text-align: center;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 64px;
-    text-align:center;
+    text-align: center;
 }
-/*action section css*/
-.action-section{
+
+.action-section {
     display: flex;
     justify-content: space-between;
 }
-.action-content{padding: 30px 0;margin-right: 205px;}
-.action-content h3{font-size: 50px;line-height: 0.5;}
-.action-content p{
-    color: #8D8E98;
+
+.action-content {
+    padding: 30px 0px;
+    margin-right: 205px;
+}
+
+.action-content h3 {
+    font-size: 50px;
+    line-height: 0.5;
+}
+
+.action-content p {
+    color: rgb(141, 142, 152);
     font-size: 25px;
 }
-.action-img img{
+
+.action-img img {
     border-radius: 50px;
 }
-.user-section{
-    background-color: #E5E7FF;
+
+.user-section {
+    background-color: rgb(229, 231, 255);
     border-radius: 50px;
-    padding: 20px 0;
+    padding: 20px 0px;
     margin-top: 80px;
 }
-.user-title{font-size: 50px;color: #252432;text-align: center;}
-.coundown{
+
+.user-title {
+    font-size: 50px;
+    color: rgb(37, 36, 50);
+    text-align: center;
+}
+
+.coundown {
     display: flex;
     justify-content: space-around;
 }
-.coundown h4{
+
+.coundown h4 {
     font-size: 60px;
     line-height: 0.5;
-    color: #4E47FF;
-    margin: 20px 0;
-}
-.coundown p{
-    font-size: 20px;
-    color: #72737F;
+    color: rgb(78, 71, 255);
+    margin: 20px 0px;
 }
 
-/*testimonial css*/
-.testimonial-section{}
-.testmonial-card{
+.coundown p {
+    font-size: 20px;
+    color: rgb(114, 115, 127);
+}
+
+.testimonial-section {
+    margin-top: 100px;
+}
+
+.test-title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testmonial-card {
     max-width: 280px;
+    background-color: rgb(250, 252, 255);
+    padding: 25px 50px 25px 25px;
+    border-radius: 30px;
 }
-.star{}
-.testimonial-content{}
-.testimonial-user{
+
+.star {
 }
-.test-img{
+
+.testimonial-content {
+}
+
+.testimonial-content h4 {
+    font-size: 24px;
+    color: rgb(30, 30, 30);
+}
+
+.testimonial-content p {
+    font-size: 16px;
+    color: rgb(30, 30, 30);
+}
+
+.testimonial-user {
+}
+
+.test-img {
     display: flex;
     gap: 20px;
-    color: #252432;
+    margin-top: 30px;
+}
+
+.reviewer-nane {
+}
+
+.reviewer {
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+    margin: 3px 0px;
+}
+
+.date {
+    font-size: 20px;
+    color: rgb(179, 179, 179);
+    margin-top: 10px;
+}
+
+.test-img img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.focus-section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 0 25px 0;
+    margin-top: 100px;
+}
+
+.focus-section p {
+    color: rgb(179, 179, 179);
+    margin-bottom: 25px;
+}
+
+.btn-block {
+    display: block;
+}
+
+.focus-title {
+    font-size: 50px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.focus-section img {
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+/*form section css*/
+.form-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 30px 0;
+}
+.form-section .touch{
+    font-size: 80px;
+    padding: 100px 0;
+}
+.form-details{}
+
+.form-details, label, input, textarea{
+    display: block;
+    padding: 20px 0;
+    font-size: 20px;
+}
+input{
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid #b3b3b377;
+    width: 100%;
+}
+
+textarea{
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid #b3b3b377;
+    width: 100%;
+    color:#b3b3b3;
+}
+/*footer css*/
+footer{
+        background-color: #fff;
+        padding: 30px 0;
+}
+.footer-section{
+    text-align: center;
+    width: 500px;
+    margin: 60px auto 40px auto;
+}
+footer p{
+     color: rgb(179, 179, 179);
+}
+
+.footer-nav ul{
+    display: flex;
+    gap: 35px;
+}
+.footer-nav li{
+    list-style: none;
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+        cursor: pointer;
+} 
+.footer-nav a{
+    text-decoration: none;
+
 }
