@@ -23,7 +23,7 @@ nav {
     border: none;
     border-radius: 8px;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -239,6 +239,10 @@ textarea{
     border: 1px solid #b3b3b377;
     width: 100%;
     color:#b3b3b3;
+}
+.btn-full{
+    margin-top: 20px;
+    width: 111%;
 }
 /*footer css*/
 footer{
