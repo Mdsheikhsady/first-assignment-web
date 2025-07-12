@@ -53,7 +53,6 @@ body{
 .action-section{
     display: flex;
     justify-content: space-between;
-    padding: 100px 0;
 }
 .action-content{padding: 30px 0;margin-right: 205px;}
 .action-content h3{font-size: 50px;line-height: 0.5;}
@@ -63,4 +62,40 @@ body{
 }
 .action-img img{
     border-radius: 50px;
+}
+.user-section{
+    background-color: #E5E7FF;
+    border-radius: 50px;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+.user-title{font-size: 50px;color: #252432;text-align: center;}
+.coundown{
+    display: flex;
+    justify-content: space-around;
+}
+.coundown h4{
+    font-size: 60px;
+    line-height: 0.5;
+    color: #4E47FF;
+    margin: 20px 0;
+}
+.coundown p{
+    font-size: 20px;
+    color: #72737F;
+}
+
+/*testimonial css*/
+.testimonial-section{}
+.testmonial-card{
+    max-width: 280px;
+}
+.star{}
+.testimonial-content{}
+.testimonial-user{
+}
+.test-img{
+    display: flex;
+    gap: 20px;
+    color: #252432;
 }
